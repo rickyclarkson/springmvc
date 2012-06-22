@@ -3,5 +3,5 @@
 </head>
 <body>
 	<h1>Hello - Spring Application</h1>
-	<p>Greetings.</p>
+	<p>${greeting}</p>
 </body>
