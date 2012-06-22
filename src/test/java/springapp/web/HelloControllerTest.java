@@ -1,9 +1,13 @@
 package springapp.web;
 
 import junit.framework.TestCase;
+import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 
-public class HelloControllerTest extends TestCase {
+import static org.junit.Assert.assertEquals;
+
+public class HelloControllerTest {
+	@Test
 	public void testHandleRequestView() {
 		HelloController controller = new HelloController();
 		ModelAndView modelAndview = controller.handleRequest(null, null);
